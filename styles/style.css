@@ -1,0 +1,119 @@
+ body{
+                background-color:black;
+                width:100%;
+            }
+            *{
+                box-sizing: border-box;
+                font-family: 'helvetica';
+            }
+            h2{
+                text-align: center;
+                color:red;
+            }
+            table{
+                margin:0 auto;
+                border-collapse: collapse;
+                margin-bottom: 50px;
+                margin-top: 50px;
+
+            }
+
+            h1{
+                font-size:50px;
+                text-align: center;
+                color:white;
+            }
+
+
+            td{
+                border:3px solid white;
+                padding:20px;
+                text-align:center;
+                color:white;
+                font-weight: bold;
+            }
+            
+            .edit-delete {
+                color:red;
+                
+            }
+            .link{
+                color:#f3f3f3;
+                text-align: center;
+                text-decoration: none;
+                background-color: rgba(242, 128, 128,0.4);
+                border: 2px solid red;
+                padding:20px;
+                border-radius: 15%;
+                margin:20px;
+
+            }
+
+            .link:hover{
+                color:black;
+            }
+
+            .page{
+                margin-left:10px;
+                color:gray;
+                text-decoration:none;
+                font-size: 2em;
+                float:left;
+
+            }
+
+            .pages{
+                width:100%;
+                position:relative;
+                left: calc(50% + (-60px));
+                top:-20px;
+
+
+            }
+
+            .page:hover{
+                color:black;
+            }
+
+            .showAll{
+                position:absolute;
+                top:-4vh;
+                left:32vw;
+            }
+
+            .search{
+                text-align: center;
+            }
+
+            h3{
+                position:absolute;
+                top:18%;
+                left:30%;
+                font-size:2em;
+                color:cornflowerblue;
+            }
+            
+             .myForm{
+                text-align: center;
+                border: 2px solid #5dc8e2;
+                border-radius: 15px;
+                padding:50px 0 50px 0;
+                
+                
+            }
+            
+             input[type="text"], input[type="number"]{
+                width:50%;
+                font-size:20px;
+                text-align: center;
+            }
+            
+            ::-webkit-input-placeholder {
+                text-align: center;
+            }
+            
+            .searchBox{
+                font-size:18px;
+            }
+            
+ 
